@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url('img/Signup.jpg')center center/cover no-repeat;
+}
+
+#container img{
+    width: 45%;
+    margin-left: 80px;
+    margin-right: auto;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+#container {
+    width: 80%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0 0 140px;
+}
+
+#container .left{
+    width: 50%;
+}
+#container h2{
+    padding: 20px 0 ;
+    margin-top:60px;
+    font-size: 3.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#container h3 {
+    padding: 20px 0;
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+#container .signform{
+    width: 390px;
+    height: 80vh;
+    background: #e1e1e1;
+    padding: 20px;
+    margin:20px 0 10px 0px;
+    text-align:center;
+    border-radius: 10px;
+}
+form input{
+    width: 100%;
+    padding: 10px 0 0 5px ;
+    margin: 20px 0;
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1.3rem;
+    background: #e1e1e1;
+}
+form .btn1{
+    width: 60%;
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #088178;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+form .btn2 {
+    width: 60%;
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    cursor:pointer;
+    border-radius: 20px;
+}
+form .btn2 i{
+    padding: 0 10px;
+    font-size: 16px;
+}
+form .btn2:hover{
+    background-color: #000;
+    color: #fff;
+}
+form .btn1:hover{
+    background-color: #fff;
+    color: #088178;
+}
+#container .signform p{
+    padding: 10px 0 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#container .btn3{
+    width: 60%;
+        margin: 20px 0;
+        padding: 10px 0;
+        font-size: 16px;
+        font-weight: 600;
+        border: 0;
+        cursor: pointer;
+        border-radius: 20px;
+        background: #000;
+        color: #e1e1e1;
+}
+#container .btn3:hover {
+    background-color: #fff;
+    color: #000;
+}
